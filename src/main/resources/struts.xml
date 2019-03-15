@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="demo" namespace="/" extends="struts-default">
+        <action name="UserLogin" class="com.company.hrm.action.UserAction" method="UserLogin"></action>
+        <action name="UserRegist" class="com.company.hrm.action.UserAction" method="UserRegist"></action>
+        <action name="UserExist" class="com.company.hrm.action.UserAction" method="UserExist"></action>
+        <action name="EmpDelete" class="com.company.hrm.action.EmpAction" method="EmpDelete"></action>
+        <action name="EmpFindAll" class="com.company.hrm.action.EmpAction" method="EmpFindAll"></action>
+        <action name="EmpFindById" class="com.company.hrm.action.EmpAction" method="EmpFindById"></action>
+        <action name="EmpFindByName" class="com.company.hrm.action.EmpAction" method="EmpFindByName"></action>
+        <action name="EmpSave" class="com.company.hrm.action.EmpAction" method="EmpSave"></action>
+        <action name="EmpUpdate" class="com.company.hrm.action.EmpAction" method="EmpUpdate"></action>
+    </package>
+</struts>
